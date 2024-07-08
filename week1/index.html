@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ULTRAKILL</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Crimson+Text:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <img id="logoImage" src="images/logo.png" ></img>
+        <nav>
+            <ul>
+                <li><a href="#overview">Gameplay</a></li>
+                <li><a href="#highlights">Highlights</a></li>
+                <li><a href="#buy">Where to Buy</a></li>
+                <li><a href="#community">Community</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section  id="overview" class="overview-section">
+        <div style="display: flex;">
+        <div style="flex: 1; justify-content: center;">
+            <p>ULTRAKILL is a fast-paced ultraviolent old school FPS that fuses together classic shooters like Quake, modern shooters like Doom (2016) and character action games like Devil May Cry. Mankind has gone extinct and the only beings left on earth are machines fueled by blood. But now that blood is starting to run out on the surface...</p>
+        </div>
+        <div style="flex: 1;  justify-content: center;">
+            <img src="images/flavor-text.jpg" style="width: 50%; height: auto;  padding-top: 50px; padding-right: 30px;padding-bottom: 50px;padding-left: 80px; ">
+        </div>
+        </div>
+        
+    </section>
+    
+    <section id="highlights" class="highlights-section">
+        <h2>Game Highlights</h2>
+        <div style="display:flex ">
+            <div style="width:5%; background:inherit;box-shadow:none ; display:flex; align-items:center;" >
+                <button onclick="plusSlides(-1)">&#10094;</button>
+            </div>
+            <div style="flex:1" class="highlight">
+                <div class="mySlides">
+                    <img src="images/slide1.jpg" style="width:100%">
+                  </div>
+                
+                  <div class="mySlides">
+                    <img src="images/slide2.jpg" style="width:100%">
+                  </div>
+                
+                  <div class="mySlides ">
+                    <img src="images/slide3.jpg" style="width:100%">
+                  </div>
+                  <div class="mySlides ">
+                    <img src="images/slide4.jpg" style="width:100%">
+                  </div>
+            </div>
+            <div style="width:5%; background:inherit;box-shadow:none; display:flex; align-items:center;" class="highlight">
+                <button style="vertical-align:center;" onclick="plusSlides(1)">&#10095;</button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="buy" class="buy-section">
+        <h2>Buy it on STEAM</h2>
+        <div style="display: flex; justify-content: center;">
+            <a  href="https://store.steampowered.com/app/1229490/ULTRAKILL/" style="width:20%"><img  src="images/steam.png"  class="button"></a>
+        </div>
+    </section>
+    
+    <section id="community" class="community-section">
+        <h2>Community</h2>
+        <div style="display:flex"class="slideshow-container">
+            <div style="padding: 20px; max-width: 30%">
+                <a href=https://discord.gg/826buQ><img  style="flex:1;" src="images/dicord.png" ></a>
+            </div>
+            <div style="padding: 20px; max-width: 30%">
+                <a href="https://www.reddit.com/r/Ultrakill/"><img style="flex:1;" src="images/reddit.png" ></a>
+            </div>
+            <div style="padding: 20px; max-width: 30%;">
+                <a href="https://x.com/HakitaDev "><img style="flex:1; "src="images/hakita.jpg" ></a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 JSB</p>
+        
+    </footer>
+    
+    <script src="scripts.js"></script>
+</body>
+</html>
